@@ -30,7 +30,7 @@ We release the dataset used in our experiments (aligned with the directory style
 **Directory structure**
 
 ```
-root/
+IR-VL328/
 ├── train/
 │   ├── drone/
 │   │   ├── 0000/
@@ -119,7 +119,7 @@ We acknowledge **University1652** and **SUES200** for their dataset organization
 **目录结构**
 
 ```
-root/
+IR-VL328/
 ├── train/
 │   ├── drone/
 │   │   ├── 0000/
