@@ -80,9 +80,9 @@ If this dataset or code is useful in your research, please cite:
   journal = { },
   volume  = {},
   pages   = {},
-  year    = {2024},
-  month   = {Jan},
-  doi     = {10.1109/tim.2023.3342849},
+  year    = {},
+  month   = {},
+  doi     = {},
   author  = {Liu, Tao and Ren, Kan and Chen, Qian},
   language= {English}
 }
@@ -170,9 +170,9 @@ root/
   journal = { },
   volume  = {},
   pages   = {},
-  year    = {2024},
-  month   = {Jan},
-  doi     = {10.1109/tim.2023.3342849},
+  year    = {},
+  month   = {},
+  doi     = {},
   author  = {Liu, Tao and Ren, Kan and Chen, Qian},
   language= {English}
 }
