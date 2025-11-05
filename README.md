@@ -25,7 +25,7 @@ We release the dataset used in our experiments (aligned with the directory style
 
 * **Baidu Netdisk:** 链接: [https://pan.baidu.com/s/1yarjck2JBaXJ7s3nDZaITw?pwd=52bj](https://pan.baidu.com/s/1yarjck2JBaXJ7s3nDZaITw?pwd=52bj)  提取码: **52bj**
   *Shared via Baidu Netdisk Super Member v4*
-* **Google Drive:** *(to be added)*
+* **Google Drive:** https://drive.google.com/file/d/1okFeWJIuZ49TnkZkkoOYTOl_b0THwUdc/view?usp=sharing **
 
 **Directory structure**
 
@@ -112,7 +112,7 @@ We acknowledge **University1652** and **SUES200** for their dataset organization
 
 * **百度网盘：** 链接: [https://pan.baidu.com/s/1yarjck2JBaXJ7s3nDZaITw?pwd=52bj](https://pan.baidu.com/s/1yarjck2JBaXJ7s3nDZaITw?pwd=52bj)  提取码：**52bj**
   —— 来自百度网盘超级会员v4的分享
-* **谷歌硬盘：** *待更新*
+* **谷歌硬盘：** https://drive.google.com/file/d/1okFeWJIuZ49TnkZkkoOYTOl_b0THwUdc/view?usp=sharing **
 
 **目录结构**
 
