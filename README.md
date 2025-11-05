@@ -75,16 +75,14 @@ Please send an email to **[liutao23@njust.edu.cn](mailto:liutao23@njust.edu.cn)*
 If this dataset or code is useful in your research, please cite:
 
 ```bibtex
-@article{ODGNNLoc,
-  title   = {Object Detection as an Optional Basis: A Graph Matching Network for Cross-View UAV Localization},
-  journal = { },
-  volume  = {},
-  pages   = {},
-  year    = {},
-  month   = {},
-  doi     = {},
-  author  = {Liu, Tao and Ren, Kan and Chen, Qian},
-  language= {English}
+@misc{liu2025objectdetectionoptionalbasis,
+      title={Object Detection as an Optional Basis: A Graph Matching Network for Cross-View UAV Localization}, 
+      author={Tao Liu and Kan Ren and Qian Chen},
+      year={2025},
+      eprint={2511.02489},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2511.02489}, 
 }
 ```
 
@@ -165,16 +163,14 @@ IR-VL328/
 若本数据/代码对您的研究有帮助，请引用下述文献：
 
 ```bibtex
-@article{ODGNNLoc,
-  title   = {Object Detection as an Optional Basis: A Graph Matching Network for Cross-View UAV Localization},
-  journal = { },
-  volume  = {},
-  pages   = {},
-  year    = {},
-  month   = {},
-  doi     = {},
-  author  = {Liu, Tao and Ren, Kan and Chen, Qian},
-  language= {English}
+@misc{liu2025objectdetectionoptionalbasis,
+      title={Object Detection as an Optional Basis: A Graph Matching Network for Cross-View UAV Localization}, 
+      author={Tao Liu and Kan Ren and Qian Chen},
+      year={2025},
+      eprint={2511.02489},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2511.02489}, 
 }
 ```
 
