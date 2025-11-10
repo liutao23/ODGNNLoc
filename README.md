@@ -13,7 +13,7 @@
 
 This repository accompanies our work on cross-view UAV localization. We leverage **object detection** to extract salient instances from UAV/satellite images, and apply a **graph neural network** to reason over intra-/inter-image relations, enabling robust matching across time, view, and modality gaps.
 
-> **Code availability:** To obtain the code used in our paper, please email **[liutao23@njust.edu.cn](mailto:liutao23@njust.edu.cn)** with your name, affiliation, and intended use (research only).
+Code availability: Currently, we are only making the code for the object detection and graph construction modules available.Other code will be made available after the paper is officially published.
 
 ---
 
@@ -148,14 +148,7 @@ IR-VL328/
 
 ---
 
-### 代码索取方式
-
-请发送邮件至 **[liutao23@njust.edu.cn](mailto:liutao23@njust.edu.cn)**，标题建议：`Code Request for Cross-View UAV Localization`，正文请包含：
-
-* 姓名、单位；
-* 用途（科研/教学）；
-* 简述承诺**仅限非商业用途**。
-
+代码获取： 目前，我们仅开放目标检测和图构建模块的代码，其他代码将在论文正式发布后开放。
 ---
 
 ### 引用
