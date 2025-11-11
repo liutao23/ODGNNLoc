@@ -3,7 +3,7 @@
 
 ## Object Detection as an Optional Basis: A Graph Matching Network for Cross-View UAV Localization
 
-[English](#english) | [中文说明](#中文说明)
+[English]| [中文说明]
 
 ---
 
