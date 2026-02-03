@@ -214,14 +214,6 @@ IR-VL328/
 
 ### 代码获取说明
 
-在论文正式接收前，如需进一步代码（仅限科研 / 教学、禁止商业用途），请发送邮件至：
-
-**[liutao23@njust.edu.cn](mailto:liutao23@njust.edu.cn)**
-
-建议格式：
-
-* 标题：`Code Request for Cross-View UAV Localization`
-* 正文：姓名、单位、使用用途（科研 / 教学）、以及仅用于非商业用途的简要承诺。
 
 论文被接收后，我们将在本仓库公开 **完整实现**，便于复现和拓展。
 
@@ -231,17 +223,7 @@ IR-VL328/
 
 如本数据集或代码对您的研究有帮助，请引用：
 
-```bibtex
-@misc{liu2025objectdetectionoptionalbasis,
-      title={Object Detection as an Optional Basis: A Graph Matching Network for Cross-View UAV Localization},
-      author={Tao Liu and Kan Ren and Qian Chen},
-      year={2025},
-      eprint={2511.02489},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2511.02489},
-}
-```
+待更新
 
 ---
 
