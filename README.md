@@ -130,14 +130,17 @@ After the paper is accepted, the **complete codebase** will be released in this 
 If this dataset or code is useful in your research, please cite:
 
 ```bibtex
-@misc{liu2025objectdetectionoptionalbasis,
-      title={Object Detection as an Optional Basis: A Graph Matching Network for Cross-View UAV Localization},
-      author={Tao Liu and Kan Ren and Qian Chen},
-      year={2025},
-      eprint={2511.02489},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2511.02489},
+@article{LIU2026104451,
+title = {Object-aware graph matching network for cross-domain remote sensing image localization},
+journal = {Chinese Journal of Aeronautics},
+pages = {104451},
+year = {2026},
+issn = {1000-9361},
+doi = {https://doi.org/10.1016/j.cja.2026.104451},
+url = {https://www.sciencedirect.com/science/article/pii/S1000936126003894},
+author = {Tao LIU and Kan REN and Qian CHEN},
+keywords = {Remote sensing, Image matching, Object detection, Graph neural networks, Image retrieval, Unmanned aerial vehicles},
+abstract = {Cross-domain and cross-modal remote sensing image geo-localization remains challenging due to large appearance discrepancies and unstable semantic correspondence across heterogeneous sensors and platforms. Existing methods mainly rely on scene-level or global representations, which often struggle to achieve reliable alignment in complex environments, especially under severe modality gaps such as infrared-to-visible matching. To facilitate research in this setting, this study introduces IRVL328, a new infrared-visible remote sensing localization dataset designed to reflect challenging cross-modal variations. Meanwhile, this study proposes an object-aware graph matching framework that integrates object detection with dual-graph neural reasoning, where salient structural regions are represented as graph nodes and both inter-image correspondences and intra-image relations are jointly modeled; a training-only node alignment strategy is further introduced to enhance supervision without increasing inference complexity. Experimental results show that the proposed method achieves competitive performance on SUES-200 and strong performance on IRVL328 and DenseUAV, particularly in challenging cross-modal settings.}
 }
 ```
 
@@ -265,7 +268,18 @@ IR-VL328/
 
 如本数据集或代码对您的研究有帮助，请引用：
 
-待更新
+@article{LIU2026104451,
+title = {Object-aware graph matching network for cross-domain remote sensing image localization},
+journal = {Chinese Journal of Aeronautics},
+pages = {104451},
+year = {2026},
+issn = {1000-9361},
+doi = {https://doi.org/10.1016/j.cja.2026.104451},
+url = {https://www.sciencedirect.com/science/article/pii/S1000936126003894},
+author = {Tao LIU and Kan REN and Qian CHEN},
+keywords = {Remote sensing, Image matching, Object detection, Graph neural networks, Image retrieval, Unmanned aerial vehicles},
+abstract = {Cross-domain and cross-modal remote sensing image geo-localization remains challenging due to large appearance discrepancies and unstable semantic correspondence across heterogeneous sensors and platforms. Existing methods mainly rely on scene-level or global representations, which often struggle to achieve reliable alignment in complex environments, especially under severe modality gaps such as infrared-to-visible matching. To facilitate research in this setting, this study introduces IRVL328, a new infrared-visible remote sensing localization dataset designed to reflect challenging cross-modal variations. Meanwhile, this study proposes an object-aware graph matching framework that integrates object detection with dual-graph neural reasoning, where salient structural regions are represented as graph nodes and both inter-image correspondences and intra-image relations are jointly modeled; a training-only node alignment strategy is further introduced to enhance supervision without increasing inference complexity. Experimental results show that the proposed method achieves competitive performance on SUES-200 and strong performance on IRVL328 and DenseUAV, particularly in challenging cross-modal settings.}
+}
 
 ---
 
