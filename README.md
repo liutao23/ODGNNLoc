@@ -8,6 +8,32 @@ A benchmark dataset and framework for cross-view and cross-modal UAV localizatio
 
 ---
 
+# 📝 A Note from the Author
+
+## English
+
+This work was completed in November 2023. During the following years, the manuscript went through several rounds of submission and review, including submissions to journals such as **TIP**, **TGRS**, **KBS**, and **JSTARS**. After nearly three years, the work was finally accepted.
+
+I have always believed that the core idea of this work is meaningful: leveraging modern object detection techniques to extract structured semantic information and integrating them with graph matching methods provides a simple, interpretable, and potentially generalizable framework for cross-view localization. With the continuous development of object detection algorithms, such a framework may naturally benefit from stronger detectors in the future.
+
+However, when this work was conducted, many components were implemented from scratch. Despite extensive experiments, the performance was not always competitive with some CNN-based or Transformer-based approaches. During the review process, many concerns focused mainly on quantitative improvements rather than the underlying research idea. This experience also made me reconsider whether this research direction should be further pursued.
+
+Fortunately, this work was eventually recognized and accepted. As my first research paper during my Ph.D., it carries special meaning to me. Although the original idea may no longer be considered novel today, I sincerely hope that the released dataset, especially the **IRVL328** dataset, can provide a useful benchmark for studying model generalization, robustness, and cross-view as well as cross-modal localization under challenging conditions.
+
+Recently, I also explored whether modern large language models could assist in improving the model through hyperparameter optimization. However, after further analysis, I realized that the limitations are not simply caused by parameter settings.
+
+Datasets such as **University1652**, **SUES-200**, and **IRVL328** contain relatively limited numbers of objects per scene. In many satellite tiles, the available semantic objects are sparse, which naturally restricts the effectiveness of graph matching methods. Such approaches may demonstrate greater potential on large-scale urban localization datasets with richer object distributions and more complex structural information.
+
+For these reasons, I have decided not to release the complete training pipeline at this stage. The implementation itself is based on relatively standard components, including object detection and graph reasoning modules, and many parts can now be reproduced with the assistance of modern AI development tools. More importantly, I hope researchers can select methodologies according to their actual objectives.
+
+If the primary goal is achieving the highest retrieval accuracy, object detection combined with graph matching may not always be the optimal solution. However, if the focus is on structured semantic understanding, interpretability, and cross-domain generalization, this direction may still provide valuable insights.
+
+I sincerely hope that this dataset can support future research on cross-view localization, robustness evaluation, and generalization analysis.
+
+Best wishes for your research.
+
+---
+
 ## 📌 Overview
 
 This repository accompanies our work on **cross-domain UAV localization**.
@@ -188,6 +214,31 @@ for their valuable contributions to cross-view localization research.
 ---
 
 # 中文说明
+
+---
+
+## 中文
+
+本文工作完成于 **2023 年 11 月**。之后几年中，论文经历了多轮投稿与审稿，包括 **TIP、TGRS、KBS、JSTARS** 等期刊，最终历时近三年被正式接收。
+
+我一直认为，这项工作的核心思想具有一定价值：利用现代目标检测技术提取图像中的结构化语义信息，并结合图匹配方法，可以构建一个简单、直观且具有解释性的跨视角定位框架。随着目标检测算法不断发展，该框架理论上也能够从更强大的检测器中进一步受益。
+
+然而，在开展这项工作时，许多模块都是从零实现的。尽管进行了大量实验，模型性能仍然无法始终与部分基于 CNN 或 Transformer 的方法相比。在论文审稿过程中，许多意见主要集中于性能指标提升，而对于方法本身的研究价值关注相对较少。这段经历也让我重新思考是否应该继续推进这一研究方向。
+
+幸运的是，这项工作最终得到了认可并被接收。作为我博士阶段的第一篇研究论文，它对我具有特殊意义。虽然如今这一思路可能已经不再被认为具有高度新颖性，但我仍然希望公开的数据集，尤其是 **IRVL328** 数据集，能够为研究者提供一个具有挑战性的跨视角、跨模态定位测试平台，用于研究模型泛化能力、鲁棒性以及复杂环境下的定位问题。
+
+最近，我也尝试探索是否可以利用现代大语言模型辅助模型优化，例如进行超参数搜索。然而经过进一步分析后，我认为该方法的限制并不仅仅来自参数设置。
+
+例如 **University1652、SUES-200 以及 IRVL328** 等数据集中，单幅场景中的目标数量相对有限，卫星图像瓦片中的有效语义节点通常较为稀疏。因此，在这种场景下，图匹配方法本身可能会受到一定限制。未来，在具有更加丰富目标分布和复杂结构信息的大规模城市级定位数据集中，这类方法或许能够展现更大的潜力。
+
+基于上述原因，目前我决定暂时不公开完整训练流程。一方面，该方法主要由目标检测、图构建以及图推理等相对标准的模块组成，随着现代 AI 辅助开发工具的发展，其中许多部分已经较容易复现；另一方面，我也希望研究者能够根据实际研究目标选择合适的方法。
+
+如果目标是追求最高检索精度，那么目标检测结合图匹配的方法并不一定始终是最优选择。但如果关注结构化语义理解、模型可解释性以及跨域泛化能力，这一方向仍然具有一定研究意义。
+
+衷心希望该数据集能够帮助未来研究者进一步探索跨视角定位中的泛化性、鲁棒性以及跨模态匹配问题。
+
+祝科研顺利。
+---
 
 ## IRVL328：面向跨域无人机定位的目标感知图匹配网络
 
