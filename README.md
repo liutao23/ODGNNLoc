@@ -9,6 +9,26 @@
 
 ## English
 
+---
+
+## A Note from the Author
+
+This work was completed in November 2023. During the following years, the manuscript was submitted to several journals, including TIP, TGRS, KBS, and JSTARS, before finally being accepted after nearly three years.
+
+I have always believed that the core idea of this work is meaningful: using modern object detection techniques to extract structured semantic information and combining them with existing graph matching methods provides a simple and interpretable framework for cross-view localization. With the continuous advancement of object detection algorithms, this framework may naturally benefit from stronger detectors in the future.
+
+However, at the time this work was conducted, many components were implemented from scratch, and despite extensive experiments, the performance was not as competitive as some CNN-based or Transformer-based approaches. Most reviewer concerns focused on quantitative performance rather than the novelty of the idea. This experience also made me reconsider whether this research direction should be continued.
+
+Fortunately, this work was eventually accepted. As my first research paper during my Ph.D., it carries special meaning to me. Although the idea itself may no longer be considered novel today, I hope that the released dataset, especially the IRVL328 dataset, can provide a useful benchmark for evaluating model generalization ability under challenging cross-view and cross-modal scenarios.
+
+Recently, I also explored whether modern large language models could help optimize the model through hyperparameter tuning. However, after further analysis, I realized that the limitations are not simply caused by parameter settings. The University1652, SUES-200, and IRVL328 datasets contain relatively limited objects per scene, and individual satellite tiles often provide only sparse graph nodes. Therefore, graph matching methods may inherently face difficulties in these scenarios. Such approaches may demonstrate stronger potential on large-scale urban localization datasets with richer object distributions.
+
+For these reasons, I decided not to release the complete training pipeline at this stage. The implementation itself is relatively straightforward, and the involved techniques can be reproduced using existing AI tools(Even Doubao can do it). More importantly, I hope future researchers focus on choosing methods that match their goals: object detection combined with graph matching provides interpretability and structural reasoning ability, but it may not always be the optimal choice when the primary objective is achieving the highest possible retrieval accuracy.
+
+I sincerely hope this dataset can help the community study generalization, robustness, and cross-view localization. Best wishes for your research.
+
+---
+
 ### Overview
 
 This repository accompanies our work on **cross-view UAV localization**.
@@ -135,6 +155,28 @@ for their dataset organization conventions and baseline implementations.
 ---
 
 ## 中文说明
+
+---
+
+## 作者寄语
+
+本文工作完成于 2023 年 11 月。之后的几年中，论文经历了多次投稿，包括 TIP、TGRS、KBS、JSTARS 等期刊，最终历时近三年被接收。
+
+我一直认为这篇工作的核心思想具有一定价值：利用先进的目标检测技术提取结构化语义信息，并结合现有的图匹配方法，可以构建一个简单、直观且具有解释性的跨视角定位框架。随着目标检测技术不断发展，该框架理论上也能够从更强的检测器中获益。
+
+然而，在论文完成的时期，许多模块均为自主实现。尽管进行了大量实验，但模型性能仍然无法与部分基于 CNN 或 Transformer 的方法相比。在审稿过程中，许多意见主要集中于指标提升，而较少关注方法本身的创新性。这也曾让我一度考虑是否继续推进这项工作。
+
+幸运的是，这篇论文最终得到了认可。作为我博士期间的第一篇论文，它对我具有特殊意义。虽然如今该想法可能已经不再新颖，但我希望公开的数据集，尤其是 IRVL328 数据集，能够为研究者测试模型泛化能力、鲁棒性以及跨视角定位提供一定帮助。
+
+最近一段时间，我也尝试思考是否可以利用 ChatGPT 等工具辅助模型调参。然而经过分析后，我认为问题并不仅仅来自参数设置。University1652、SUES-200 以及 IRVL328 数据集中，单幅图像包含的目标数量有限，卫星瓦片中的有效目标节点较少，因此图匹配方法在这种场景下天然受到限制。未来，在具有更丰富目标分布的大规模城市级地理定位数据集上，这类方法可能会展现更大的潜力。
+
+因此，目前我没有公开完整训练代码。一方面，该方法实现逻辑较为简单，所使用的技术在当前 AI 时代已经较容易复现（即便是豆包也可以）；另一方面，我也希望研究者根据实际目标选择合适的方法。如果目标是追求最高指标，目标检测结合图匹配可能并不是最优路线；但如果关注结构化理解、可解释性以及跨域泛化能力，这种思路仍具有一定研究价值。
+
+感谢所有关注和使用本数据集的研究者。希望 IRVL328 能够帮助大家更好地研究跨视角定位中的泛化性和鲁棒性。
+
+祝科研顺利。
+
+---
 
 ### 简介
 
